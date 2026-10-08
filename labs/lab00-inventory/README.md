@@ -6,7 +6,7 @@ Date:
 
 ## What I did
 
-Steps, with commands in code blocks. Not prose about the steps.
+Steps, with commands in code blocks. Not prose about the steps with my friend Mukhammadali.
 
 ```
 <command>

@@ -63,12 +63,12 @@ AMD Ryzen AI 9 HX 370 w/ Radeon 890M                                     True>
 | Cores / threads | <12 / 24> | `Get-CimInstance Win32_Processor` |
 | Total RAM | <32 GB> | `Get-CimInstance Win32_PhysicalMemory` |
 | RAM modules / speed | <4 модулей / 8000 MT/s> | `Get-CimInstance Win32_PhysicalMemory` |
-| Disk model | <WD PC SN5000S SDEQNSJ-1T00-1002> | `Get-PhysicalDisk` |
+| Disk model | WD PC SN5000S SDEQNSJ-1T00-1002 | `Get-PhysicalDisk` |
 | Disk type | <NVMe / SSD> | `Get-PhysicalDisk` (BusType, MediaType) |
 | Free space (VM volume) | <584,1 GB> | `Get-Volume -DriveLetter C` |
-| Firmware type | <UEFI> | `(Get-ComputerInfo).BiosFirmwareType` |
+| Firmware type | UEFI | `(Get-ComputerInfo).BiosFirmwareType` |
 | Firmware version / date | <GA403WR.310 / 21.11.2025 5:00:00> | `Get-CimInstance Win32_BIOS` |
-| Virtualization | <enabled> | `systeminfo` |
+| Virtualization | True | `systeminfo` |
 
 ## What did not work the first time 
 - < to create cpu, memory and disk .txt files due to inccorect code line as (-Encoding utf8) and and save data into these txt files>

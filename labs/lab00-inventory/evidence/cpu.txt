@@ -1,0 +1,8 @@
+﻿
+
+Name                      : AMD Ryzen AI 9 HX 370 w/ Radeon 890M           
+NumberOfCores             : 12
+NumberOfLogicalProcessors : 24
+
+
+

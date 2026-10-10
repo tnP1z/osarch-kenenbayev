@@ -1,0 +1,18 @@
+﻿
+
+FriendlyName : WD PC SN5000S SDEQNSJ-1T00-1002
+MediaType    : SSD
+BusType      : NVMe
+Size         : 1024209543168
+
+
+
+
+DriveLetter FileSystemLabel         Size SizeRemaining
+----------- ---------------         ---- -------------
+                              1005580288     120553472
+            MYASUS             268435456     169652224
+            RESTORE          30064766976    2166263808
+C           OS              992575033344  627120222208
+
+

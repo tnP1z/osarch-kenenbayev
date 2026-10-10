@@ -1,0 +1,10 @@
+﻿
+BankLabel    Manufacturer   Capacity Speed ConfiguredClockSpeed
+---------    ------------   -------- ----- --------------------
+P0 CHANNEL A Samsung      8589934592  8000                 8000
+P0 CHANNEL B Samsung      8589934592  8000                 8000
+P0 CHANNEL C Samsung      8589934592  8000                 8000
+P0 CHANNEL D Samsung      8589934592  8000                 8000
+
+
+Total GB: 32

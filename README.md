@@ -1,16 +1,16 @@
 # Operating System Architecture — build log
 
-**Student:**
-**Group:**
-**Host machine:**
-**Hypervisor:**
-**Guest operating systems:**
+**Student:Kenenbayev Kadirzhan**
+**Group: CYB-1**
+**Host machine: ASUS Zephyrus G14 GA403WR**
+**Hypervisor: Olzhas Sabitov**
+**Guest operating systems: Windows 11 24H2**
 
 ## Labs
 
 | # | Topic | Folder | Status |
 |---|-------|--------|--------|
-| 0 | Inventory your own machine | [labs/lab00-inventory](labs/lab00-inventory) | |
+| 0 | Inventory your own machine | [labs/lab00-inventory](labs/lab00-inventory) | Done |
 | 1 | Your first virtual machine | [labs/lab01-first-vm](labs/lab01-first-vm) | |
 | 2 | A Windows guest, and a network | [labs/lab02-windows-vm](labs/lab02-windows-vm) | |
 | 3 | Teardown | [labs/lab03-teardown](labs/lab03-teardown) | |

@@ -1,9 +1,13 @@
 # Operating System Architecture — build log
 
 **Student:Kenenbayev Kadirzhan**
+
 **Group: CYB-1**
+
 **Host machine: ASUS Zephyrus G14 GA403WR**
+
 **Hypervisor: Olzhas Sabitov**
+
 **Guest operating systems: Windows 11 24H2**
 
 ## Labs

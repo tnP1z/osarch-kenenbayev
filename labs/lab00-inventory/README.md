@@ -1,6 +1,6 @@
 # Lab 0 — Inventory your own machine
 Pair: < none >
-Driver first half: < Kenenbayev Kadirzhan>
+Driver first half: < Kenenbayev Kadirzhan >
 Machine: < ASUS Zephyrus G14 GA403WR>
 Date: <10.10.2026>
 

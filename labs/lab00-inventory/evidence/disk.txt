@@ -1,11 +1,7 @@
-﻿
-
-FriendlyName : WD PC SN5000S SDEQNSJ-1T00-1002
+﻿FriendlyName : WD PC SN5000S SDEQNSJ-1T00-1002
 MediaType    : SSD
 BusType      : NVMe
 Size         : 1024209543168
-
-
 
 
 DriveLetter FileSystemLabel         Size SizeRemaining

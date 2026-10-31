@@ -1,0 +1,463 @@
+﻿**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20261101020527
+Имя пользователя: XXXX
+Запуск от имени пользователя: XXXX
+Имя конфигурации: 
+Компьютер: AZG14 (Microsoft Windows NT 10.0.26200.0)
+Ведущее приложение: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ИД процесса: 27040
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл windows-specs.txt
+PS C:\GG\OSA github\labs\lab03-teardown\evidence> Get-CimInstance Win32_ComputerSystem | Format-List *
+Get-CimInstance Win32_PhysicalMemoryArray | Format-List *
+Get-CimInstance Win32_PhysicalMemory | Format-List *
+Get-PhysicalDisk | Format-List *
+Get-CimInstance Win32_Processor | Format-List *
+Get-CimInstance Win32_BaseBoard | Format-List *
+
+
+AdminPasswordStatus         : 3
+BootupState                 : Normal boot
+ChassisBootupState          : 3
+KeyboardPasswordStatus      : 3
+PowerOnPasswordStatus       : 3
+PowerSupplyState            : 3
+PowerState                  : 0
+FrontPanelResetStatus       : 3
+ThermalState                : 3
+Status                      : OK
+Name                        : AZG14
+PowerManagementCapabilities :
+PowerManagementSupported    :
+Caption                     : AZG14
+Description                 : AT/AT COMPATIBLE
+InstallDate                 :
+CreationClassName           : Win32_ComputerSystem
+NameFormat                  :
+PrimaryOwnerContact         :
+PrimaryOwnerName            : XXXX
+Roles                       : {LM_Workstation, LM_Server, NT}
+InitialLoadInfo             :
+LastLoadInfo                :
+ResetCapability             : 1
+AutomaticManagedPagefile    : True
+AutomaticResetBootOption    : True
+AutomaticResetCapability    : True
+BootOptionOnLimit           :
+BootOptionOnWatchDog        :
+BootROMSupported            : True
+BootStatus                  : {0, 0, 0, 0...}
+ChassisSKUNumber            : Default string
+CurrentTimeZone             : 300
+DaylightInEffect            :
+DNSHostName                 : AZG14
+Domain                      : WORKGROUP
+DomainRole                  : 0
+EnableDaylightSavingsTime   : True
+HypervisorPresent           : True
+InfraredSupported           : False
+Manufacturer                : ASUSTeK COMPUTER INC.
+Model                       : ROG Zephyrus G14 GA403WR_GA403WR
+NetworkServerModeEnabled    : True
+NumberOfLogicalProcessors   : 24
+NumberOfProcessors          : 1
+OEMLogoBitmap               :
+OEMStringArray              : {  ,  ,  ,  ...}
+PartOfDomain                : False
+PauseAfterReset             : -1
+PCSystemType                : 2
+PCSystemTypeEx              : 2
+ResetCount                  : -1
+ResetLimit                  : -1
+SupportContactDescription   :
+SystemFamily                : ROG Zephyrus G14
+SystemSKUNumber             :
+SystemStartupDelay          :
+SystemStartupOptions        :
+SystemStartupSetting        :
+SystemType                  : x64-based PC
+TotalPhysicalMemory         : 33412722688
+UserName                    : XXXX
+WakeUpType                  : 6
+Workgroup                   : WORKGROUP
+PSComputerName              :
+CimClass                    : root/cimv2:Win32_ComputerSystem
+CimInstanceProperties       : {Caption, Description, InstallDate, Name...}
+CimSystemProperties         : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+
+
+
+Status                :
+Name                  : Массив физической памяти
+Replaceable           :
+Location              : 3
+Caption               : Массив физической памяти
+Description           : Массив физической памяти
+InstallDate           :
+CreationClassName     : Win32_PhysicalMemoryArray
+Manufacturer          :
+Model                 :
+OtherIdentifyingInfo  :
+PartNumber            :
+PoweredOn             :
+SerialNumber          :
+SKU                   :
+Tag                   : Physical Memory Array 0
+Version               :
+Depth                 :
+Height                :
+HotSwappable          :
+Removable             :
+Weight                :
+Width                 :
+MaxCapacity           : 67108864
+MaxCapacityEx         : 67108864
+MemoryDevices         : 4
+MemoryErrorCorrection : 3
+Use                   : 3
+PSComputerName        :
+CimClass              : root/cimv2:Win32_PhysicalMemoryArray
+CimInstanceProperties : {Caption, Description, InstallDate, Name...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+
+
+
+Caption               : Физическая память
+Description           : Физическая память
+InstallDate           :
+Name                  : Физическая память
+Status                :
+CreationClassName     : Win32_PhysicalMemory
+Manufacturer          : Samsung
+Model                 :
+OtherIdentifyingInfo  :
+PartNumber            : K3KL9L90DM-MGCU
+PoweredOn             :
+SerialNumber          : ХХХХХХХХ
+SKU                   :
+Tag                   : Physical Memory 0
+Version               :
+HotSwappable          :
+Removable             :
+Replaceable           :
+FormFactor            : 1
+BankLabel             : P0 CHANNEL A
+Capacity              : 8589934592
+DataWidth             : 32
+InterleavePosition    :
+MemoryType            : 0
+PositionInRow         :
+Speed                 : 8000
+TotalWidth            : 32
+Attributes            : 2
+ConfiguredClockSpeed  : 8000
+ConfiguredVoltage     : 500
+DeviceLocator         : DIMM 0
+InterleaveDataDepth   :
+MaxVoltage            : 500
+MinVoltage            : 500
+SMBIOSMemoryType      : 35
+TypeDetail            : 16512
+PSComputerName        :
+CimClass              : root/cimv2:Win32_PhysicalMemory
+CimInstanceProperties : {Caption, Description, InstallDate, Name...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Caption               : Физическая память
+Description           : Физическая память
+InstallDate           :
+Name                  : Физическая память
+Status                :
+CreationClassName     : Win32_PhysicalMemory
+Manufacturer          : Samsung
+Model                 :
+OtherIdentifyingInfo  :
+PartNumber            : K3KL9L90DM-MGCU
+PoweredOn             :
+SerialNumber          : ХХХХХХХХ
+SKU                   :
+Tag                   : Physical Memory 1
+Version               :
+HotSwappable          :
+Removable             :
+Replaceable           :
+FormFactor            : 1
+BankLabel             : P0 CHANNEL B
+Capacity              : 8589934592
+DataWidth             : 32
+InterleavePosition    :
+MemoryType            : 0
+PositionInRow         :
+Speed                 : 8000
+TotalWidth            : 32
+Attributes            : 2
+ConfiguredClockSpeed  : 8000
+ConfiguredVoltage     : 500
+DeviceLocator         : DIMM 0
+InterleaveDataDepth   :
+MaxVoltage            : 500
+MinVoltage            : 500
+SMBIOSMemoryType      : 35
+TypeDetail            : 16512
+PSComputerName        :
+CimClass              : root/cimv2:Win32_PhysicalMemory
+CimInstanceProperties : {Caption, Description, InstallDate, Name...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Caption               : Физическая память
+Description           : Физическая память
+InstallDate           :
+Name                  : Физическая память
+Status                :
+CreationClassName     : Win32_PhysicalMemory
+Manufacturer          : Samsung
+Model                 :
+OtherIdentifyingInfo  :
+PartNumber            : K3KL9L90DM-MGCU
+PoweredOn             :
+SerialNumber          : ХХХХХХХХ
+SKU                   :
+Tag                   : Physical Memory 2
+Version               :
+HotSwappable          :
+Removable             :
+Replaceable           :
+FormFactor            : 1
+BankLabel             : P0 CHANNEL C
+Capacity              : 8589934592
+DataWidth             : 32
+InterleavePosition    :
+MemoryType            : 0
+PositionInRow         :
+Speed                 : 8000
+TotalWidth            : 32
+Attributes            : 2
+ConfiguredClockSpeed  : 8000
+ConfiguredVoltage     : 500
+DeviceLocator         : DIMM 0
+InterleaveDataDepth   :
+MaxVoltage            : 500
+MinVoltage            : 500
+SMBIOSMemoryType      : 35
+TypeDetail            : 16512
+PSComputerName        :
+CimClass              : root/cimv2:Win32_PhysicalMemory
+CimInstanceProperties : {Caption, Description, InstallDate, Name...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Caption               : Физическая память
+Description           : Физическая память
+InstallDate           :
+Name                  : Физическая память
+Status                :
+CreationClassName     : Win32_PhysicalMemory
+Manufacturer          : Samsung
+Model                 :
+OtherIdentifyingInfo  :
+PartNumber            : K3KL9L90DM-MGCU
+PoweredOn             :
+SerialNumber          : XXXXXXXX
+SKU                   :
+Tag                   : Physical Memory 3
+Version               :
+HotSwappable          :
+Removable             :
+Replaceable           :
+FormFactor            : 1
+BankLabel             : P0 CHANNEL D
+Capacity              : 8589934592
+DataWidth             : 32
+InterleavePosition    :
+MemoryType            : 0
+PositionInRow         :
+Speed                 : 8000
+TotalWidth            : 32
+Attributes            : 2
+ConfiguredClockSpeed  : 8000
+ConfiguredVoltage     : 500
+DeviceLocator         : DIMM 0
+InterleaveDataDepth   :
+MaxVoltage            : 500
+MinVoltage            : 500
+SMBIOSMemoryType      : 35
+TypeDetail            : 16512
+PSComputerName        :
+CimClass              : root/cimv2:Win32_PhysicalMemory
+CimInstanceProperties : {Caption, Description, InstallDate, Name...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+
+
+
+ClassName                        : MSFT_PhysicalDisk
+Usage                            : Auto-Select
+OperationalStatus                : OK
+UniqueIdFormat                   : SCSI Name String
+HealthStatus                     : Healthy
+BusType                          : NVMe
+CannotPoolReason                 : Insufficient Capacity
+SupportedUsages                  : {Auto-Select, Manual-Select, Hot Spare, Retired...}
+MediaType                        : SSD
+SpindleSpeed                     : 0
+ObjectId                         : {1}\\AZG14\root/Microsoft/Windows/Storage/Providers_v2\SPACES_PhysicalDisk.ObjectId=
+                                   "{ac13d10b-3a74-11f0-b181-806e6f6e6963}:PD:{d0e2cf88-5292-ba6b-3a10-541315524532}"
+PassThroughClass                 :
+PassThroughIds                   :
+PassThroughNamespace             :
+PassThroughServer                :
+UniqueId                         : eui.E8238FA6BF530001001B448B4DC128FF
+Description                      :
+FriendlyName                     : WD PC SN5000S SDEQNSJ-1T00-1002
+Manufacturer                     :
+Model                            : WD PC SN5000S SDEQNSJ-1T00-1002
+OperationalDetails               :
+PhysicalLocation                 : Integrated : Bus 97 : Device 0 : Function 0 : Adapter 0
+SerialNumber                     : ХХХХ
+AdapterSerialNumber              : ХХХХХХХХХХХХ      ХХХХХ
+AllocatedSize                    : 1024209543168
+CanPool                          : False
+DeviceId                         : 0
+EnclosureNumber                  :
+FirmwareVersion                  : 34230100
+FruId                            : 25082Q801308
+IsIndicationEnabled              : False
+IsPartial                        : True
+LogicalSectorSize                : 512
+OtherCannotPoolReasonDescription :
+PartNumber                       :
+PhysicalSectorSize               : 65536
+Size                             : 1024209543168
+SlotNumber                       :
+SoftwareVersion                  :
+StoragePoolUniqueId              :
+VirtualDiskFootprint             : 0
+PSComputerName                   :
+CimClass                         : root/microsoft/windows/storage:MSFT_PhysicalDisk
+CimInstanceProperties            : {ObjectId, PassThroughClass, PassThroughIds, PassThroughNamespace...}
+CimSystemProperties              : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+
+
+
+Availability                            : 3
+CpuStatus                               : 1
+CurrentVoltage                          : 12
+DeviceID                                : CPU0
+ErrorCleared                            :
+ErrorDescription                        :
+LastErrorCode                           :
+LoadPercentage                          : 1
+Status                                  : OK
+StatusInfo                              : 3
+AddressWidth                            : 64
+DataWidth                               : 64
+ExtClock                                : 100
+L2CacheSize                             : 12288
+L2CacheSpeed                            :
+MaxClockSpeed                           : 2000
+PowerManagementSupported                : False
+ProcessorType                           : 3
+Revision                                : 9216
+SocketDesignation                       : FP8LPDDR5x
+Version                                 : Модель 4, выпуск 0
+VoltageCaps                             :
+Caption                                 : AMD64 Family 26 Model 36 Stepping 0
+Description                             : AMD64 Family 26 Model 36 Stepping 0
+InstallDate                             :
+Name                                    : AMD Ryzen AI 9 HX 370 w/ Radeon 890M
+ConfigManagerErrorCode                  :
+ConfigManagerUserConfig                 :
+CreationClassName                       : Win32_Processor
+PNPDeviceID                             :
+PowerManagementCapabilities             :
+SystemCreationClassName                 : Win32_ComputerSystem
+SystemName                              : AZG14
+CurrentClockSpeed                       : 2000
+Family                                  : 107
+OtherFamilyDescription                  :
+Role                                    : CPU
+Stepping                                : 0
+UniqueId                                :
+UpgradeMethod                           : 1
+Architecture                            : 9
+AssetTag                                : Unknown
+Characteristics                         : 252
+L3CacheSize                             : 24576
+L3CacheSpeed                            : 0
+Level                                   : 26
+Manufacturer                            : AuthenticAMD
+NumberOfCores                           : 12
+NumberOfEnabledCore                     : 12
+NumberOfLogicalProcessors               : 24
+PartNumber                              : Unknown
+ProcessorId                             : 178BFBFF00B20F40
+SecondLevelAddressTranslationExtensions : False
+SerialNumber                            : Unknown
+ThreadCount                             : 24
+VirtualizationFirmwareEnabled           : True
+VMMonitorModeExtensions                 : False
+PSComputerName                          :
+CimClass                                : root/cimv2:Win32_Processor
+CimInstanceProperties                   : {Caption, Description, InstallDate, Name...}
+CimSystemProperties                     : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+
+
+
+Status                  : OK
+Name                    : Основная плата
+PoweredOn               : True
+Caption                 : Основная плата
+Description             : Основная плата
+InstallDate             :
+CreationClassName       : Win32_BaseBoard
+Manufacturer            : ASUSTeK COMPUTER INC.
+Model                   :
+OtherIdentifyingInfo    :
+PartNumber              :
+SerialNumber            : ХХХХХХХХХХХХХХХХ
+SKU                     :
+Tag                     : Base Board
+Version                 : 1.0
+Depth                   :
+Height                  :
+HotSwappable            : False
+Removable               : False
+Replaceable             : True
+Weight                  :
+Width                   :
+HostingBoard            : True
+RequirementsDescription :
+RequiresDaughterBoard   : False
+SlotLayout              :
+SpecialRequirements     :
+ConfigOptions           : {Default string}
+Product                 : GA403WR
+PSComputerName          :
+CimClass                : root/cimv2:Win32_BaseBoard
+CimInstanceProperties   : {Caption, Description, InstallDate, Name...}
+CimSystemProperties     : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+
+PS C:\GG\OSA github\labs\lab03-teardown\evidence> Stop-Transcript
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20261101020853
+**********************

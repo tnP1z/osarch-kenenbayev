@@ -17,7 +17,7 @@
 | 0 | Inventory your own machine | [labs/lab00-inventory](labs/lab00-inventory) | Done |
 | 1 | Your first virtual machine | [labs/lab01-first-vm](labs/lab01-first-vm)   | Done |  
 | 2 | A Windows guest, and a network | [labs/lab02-windows-vm](labs/lab02-windows-vm) | Done |
-| 3 | Teardown | [labs/lab03-teardown](labs/lab03-teardown) | |
+| 3 | Teardown | [labs/lab03-teardown](labs/lab03-teardown) | Done |
 | 4 | Partition, mirror, fail, recover | [labs/lab04-storage](labs/lab04-storage) | |
 | 5 | Encoding forensics | [labs/lab05-encoding](labs/lab05-encoding) | |
 | 6 | Live processes and memory pressure | [labs/lab06-processes](labs/lab06-processes) | |
@@ -46,7 +46,7 @@ Week __ — `____` : [tools/____.md](tools/)
 
 | Assignment | Tool | What for |
 |------------|------|----------|
-| | | |
+| labs/lab03-teardown | Claude AI | Claude — analysis of the output of commands and manuals, draft README Lab 3" |
 
 > Declaring this costs nothing. Not declaring it, when it comes up at the
 > defence, costs the assignment.

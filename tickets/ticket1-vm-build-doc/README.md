@@ -100,7 +100,6 @@ BUILD.md's troubleshooting table, so Aigerim does not have to diagnose it hersel
 - [evidence/05-ping-between-guests.txt](evidence/05-ping-between-guests.txt) — both guests reach 8.8.8.8 and each other, in both directions
 - [evidence/06-snapshot-list.png](evidence/06-snapshot-list.png) — a `clean-install` snapshot exists to return to
 - [evidence/build/](evidence/build/) — the remaining step screenshots referenced from BUILD.md
-- TODO: [evidence/test-run.md](evidence/test-run.md) — someone else followed BUILD.md before submission: where they got stuck and what I changed
 
 ## 5. What I would do differently
 

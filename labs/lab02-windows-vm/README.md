@@ -65,11 +65,11 @@ After the experiment, I restored Ubuntu to 4 GB and Windows to 8 GB. Both guests
 
 ## 8. Evidence
 
-- `evidence/ipconfig-windows.txt`
-- `evidence/ip-addr-linux.txt`
-- `evidence/ping-both-ways.txt`
-- `evidence/host-memory-before.png`
-- `evidence/host-memory-after.png`
+- [evidence/](evidence/ipconfig-windows.txt)
+- [evidence/](evidence/ip-addr-linux.txt)
+- [evidence/](evidence/ping-both-ways.txt)
+- [evidence/](evidence/host-memory-before.png)
+- [evidence/](evidence/host-memory-after.png)
 
 ## 9. Problems and Observations
 

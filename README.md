@@ -32,7 +32,7 @@
 
 | # | Title | Folder | Submitted |
 |---|-------|--------|-----------|
-| 1 | VM build document | [tickets/ticket1-vm-build-doc](tickets/ticket1-vm-build-doc) | |
+| 1 | VM build document | [tickets/ticket1-vm-build-doc](tickets/ticket1-vm-build-doc) | Yes |
 | 2 | Office hardware specification | [tickets/ticket2-office-spec](tickets/ticket2-office-spec) | |
 | 3 | Network fault diagnosis | [tickets/ticket3-network-fault](tickets/ticket3-network-fault) | |
 | 4 | HR staff report script | [tickets/ticket4-hr-csv](tickets/ticket4-hr-csv) | |
@@ -46,7 +46,8 @@ Week __ — `____` : [tools/____.md](tools/)
 
 | Assignment | Tool | What for |
 |------------|------|----------|
-| labs/lab03-teardown | Claude AI | Claude — analysis of the output of commands and manuals, draft README Lab 3" |
+| labs/lab03-teardown | Claude AI | Claude — analysis of the output of commands and manuals, draft README Lab 3 |
+| tickets/ticket1-vm-build-doc | Claude AI | Claude — analysis of the BUILD.md and README.md |
 
 > Declaring this costs nothing. Not declaring it, when it comes up at the
 > defence, costs the assignment.

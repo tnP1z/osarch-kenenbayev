@@ -168,7 +168,7 @@ machine will not open again.
 **Why:** Windows 11 refuses to install without a TPM security chip. VMware gives the virtual machine a virtual
 TPM, and it requires this encryption to do so.
 
-![Encryption page](evidence/build/step11-encryption.png)
+![Encryption page](evidence/build/step11-encryption.png.png)
 
 ### Step 12. Disk, memory, processors, network
 

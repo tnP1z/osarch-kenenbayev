@@ -19,7 +19,7 @@
 | 2 | A Windows guest, and a network | [labs/lab02-windows-vm](labs/lab02-windows-vm) | Done |
 | 3 | Teardown | [labs/lab03-teardown](labs/lab03-teardown) | Done |
 | 4 | Partition, mirror, fail, recover | [labs/lab04-storage](labs/lab04-storage) | Done |
-| 5 | Encoding forensics | [labs/lab05-encoding](labs/lab05-encoding) | |
+| 5 | Encoding forensics | [labs/lab05-encoding](labs/lab05-encoding) | Done |
 | 6 | Live processes and memory pressure | [labs/lab06-processes](labs/lab06-processes) | |
 | 7 | CLI dojo | [labs/lab07-cli-dojo](labs/lab07-cli-dojo) | |
 | 8 | Bandit and your first bash script | [labs/lab08-bandit](labs/lab08-bandit) | |
@@ -49,6 +49,8 @@ Week __ — `____` : [tools/____.md](tools/)
 | labs/lab03-teardown | Claude AI | Claude — analysis of the output of commands and manuals, draft README Lab 3 |
 | tickets/ticket1-vm-build-doc | Claude AI | Claude — analysis of the BUILD.md and README.md |
 | labs/lab04-storage | Claude AI | Lab 4 — step-by-step guidance, help recovering the Ubuntu guest after I overwrote its GRUB partition, README drafted from my own evidence files |
+| labs/lab04-storage | Claude AI| Lab 5 — guidance through the diagnosis, checking candidate encodings, fix.sh and README drafted from my own outputs and screenshots |
+
 
 > Declaring this costs nothing. Not declaring it, when it comes up at the
 > defence, costs the assignment.

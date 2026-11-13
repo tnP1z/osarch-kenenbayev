@@ -33,7 +33,7 @@
 | # | Title | Folder | Submitted |
 |---|-------|--------|-----------|
 | 1 | VM build document | [tickets/ticket1-vm-build-doc](tickets/ticket1-vm-build-doc) | Yes |
-| 2 | Office hardware specification | [tickets/ticket2-office-spec](tickets/ticket2-office-spec) | |
+| 2 | Office hardware specification | [tickets/ticket2-office-spec](tickets/ticket2-office-spec) | Yes |
 | 3 | Network fault diagnosis | [tickets/ticket3-network-fault](tickets/ticket3-network-fault) | |
 | 4 | HR staff report script | [tickets/ticket4-hr-csv](tickets/ticket4-hr-csv) | |
 | 5 | Onboarding and offboarding | [tickets/ticket5-onboarding](tickets/ticket5-onboarding) | |
@@ -50,6 +50,7 @@ Week __ — `____` : [tools/____.md](tools/)
 | tickets/ticket1-vm-build-doc | Claude AI | Claude — analysis of the BUILD.md and README.md |
 | labs/lab04-storage | Claude AI | Lab 4 — step-by-step guidance, help recovering the Ubuntu guest after I overwrote its GRUB partition, README drafted from my own evidence files |
 | labs/lab04-storage | Claude AI| Lab 5 — guidance through the diagnosis, checking candidate encodings, fix.sh and README drafted from my own outputs and screenshots |
+| tickets/ticket2-office-spec | Claude AI | Ticket 2 — price research at Kazakh vendors, budget calculation, drafts of README, builds.md and budget.csv; screenshots, PCPartPicker lists and the peer check done by me |
 
 
 > Declaring this costs nothing. Not declaring it, when it comes up at the

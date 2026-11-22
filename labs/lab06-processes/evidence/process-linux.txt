@@ -1,0 +1,9 @@
+    PID    PPID USER     CMD
+   1147       1 root     /usr/bin/vmtoolsd
+Name:	vmtoolsd
+PPid:	1
+VmSize:	  114028 kB
+VmRSS:	   11064 kB
+Threads:	4
+open fds:
+9

@@ -1,0 +1,8 @@
+Nov 22 12:41:02 lab01 kernel: python3 invoked oom-killer: gfp_mask=0x140dca(GFP_HIGHUSER_MOVABLE|__GFP_ZERO|__GFP_COMP), order=0, oom_score_adj=0
+Nov 22 12:41:02 lab01 kernel:  oom_kill_process.cold+0x8/0xac
+Nov 22 12:41:02 lab01 kernel:  __alloc_pages_may_oom+0x10a/0x1d0
+Nov 22 12:41:02 lab01 kernel: [  pid  ]   uid  tgid total_vm      rss rss_anon rss_file rss_shmem pgtables_bytes swapents oom_score_adj name
+Nov 22 12:41:02 lab01 kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-3.scope,task=python3,pid=2692,uid=1000
+Nov 22 12:41:02 lab01 kernel: Out of memory: Killed process 2692 (python3) total-vm:5292328kB, anon-rss:2994420kB, file-rss:2388kB, shmem-rss:0kB, UID:1000 pgtables:10284kB oom_score_adj:0
+--- systemd-oomd:
+-- No entries --

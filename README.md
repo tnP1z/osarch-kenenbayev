@@ -51,7 +51,7 @@ Week __ — `____` : [tools/____.md](tools/)
 | labs/lab04-storage | Claude AI | Lab 4 — step-by-step guidance, help recovering the Ubuntu guest after I overwrote its GRUB partition, README drafted from my own evidence files |
 | labs/lab04-storage | Claude AI| Lab 5 — guidance through the diagnosis, checking candidate encodings, fix.sh and README drafted from my own outputs and screenshots |
 | tickets/ticket2-office-spec | Claude AI | Ticket 2 — price research at Kazakh vendors, budget calculation, drafts of README, builds.md and budget.csv; screenshots, PCPartPicker lists and the peer check done by me |
-
+| labs/lab06-processes | Claude AI | Lab 6 — step-by-step guidance, choosing a process present on both guests, README drafted from my own screenshots and outputs |
 
 > Declaring this costs nothing. Not declaring it, when it comes up at the
 > defence, costs the assignment.
